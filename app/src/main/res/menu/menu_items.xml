@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Beállitások" />
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Kezdő oldal" />
+
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Értékelés" />
+    </group>
+
+    <item android:title="Kapcsolat">
+        <menu>
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/ic_email"
+                android:title="Email" />
+
+            <item
+                android:id="@+id/comment"
+                android:icon="@drawable/ic_comment"
+                android:title="Hozzászólás" />
+        </menu>
+    </item>
+</menu>

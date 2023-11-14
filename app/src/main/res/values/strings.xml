@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NavigationDrawer_IKT</string>
+    <string name="open">Nyitva</string>
+    <string name="close">Zárva</string>
+</resources>
